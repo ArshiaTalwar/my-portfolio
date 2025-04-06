@@ -15,7 +15,7 @@ export default function Description() {
           of Websites and Web Applications. Check out some of my work in the
           Projects section. I'm open to job opportunities where I can
           contribute, learn, and grow. If you have a good opportunity that
-          matches my skills and experience, then don't hesitate to contact me.
+          matches my skills and experience, then don&apos;t hesitate to contact me.
         </p>
       </div>
     </section>
