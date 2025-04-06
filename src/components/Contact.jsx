@@ -13,7 +13,7 @@ const Contact = () => {
     <>
       <section
         id="contact"
-        className="EXPERIENCE dark:bg-[#111827] p-5 mt-[5rem] font-['Poppins']  max-sm:p-2 "
+        className="EXPERIENCE dark:bg-[#111827] px-20 py-10 mt-[5rem] font-['Poppins']  max-sm:p-2 "
       >
         <div className="bg-gradient-to-tl from-[#e1e1e1] to-[#fff] dark:from-[#111827] dark:to-[#111827] dark:shadow-none rounded-2xl shadow-xl WRAPPER mx-2 flex justify-between p-7 mb-7 max-sm:flex-col-reverse max-sm:p-2">
           <div className="ABOUT p-7">
@@ -38,7 +38,7 @@ const Contact = () => {
                 <SiLinkedin />
               </a>
               <a
-                href="arshiatalwar17@gmail.com"
+                href="mailto:arshiatalwar17@gmail.com"
                 className=" hover:text-slate-500  dark:hover:text-sky-300"
               >
                 <SiGmail />
