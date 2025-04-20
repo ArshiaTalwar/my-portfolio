@@ -24,8 +24,17 @@ const Project_prop = (props) => {
               </h3>
 
               <div className="flex gap-1 p-1 -translate-x-2">
-                {props.html5}
-                {props.css3}
+                {props.tensor}
+                {props.python}
+                {props.keras}
+                {props.matplotlib}
+                {props.pandas}
+                {props.numpy}
+                {props.googlecolab}
+                {props.mongodb}
+                {props.express}
+                {props.nodejs}
+                {props.firebase}
                 {props.javascript}
                 {props.tailwindcss}
                 {props.react}

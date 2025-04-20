@@ -1,10 +1,8 @@
 import Project_prop from "./project_prop";
 import {
-  GPT4,
-  Portfolio,
-  Rocket,
-  WellBeing,
-  Game,
+ 
+  shedetects,yapnest,food
+  
 } from "../constants/Constant";
 import Tooltip from "@mui/material/Tooltip";
 import IconButton from "@mui/material/IconButton";
@@ -15,9 +13,16 @@ import {
   SiReact,
   SiTailwindcss,
   SiVite,
-  SiHtml5,
-  SiCss3,
-  SiJavascript,
+  
+  
+  SiMongodb,
+  SiExpress,
+  SiNodedotjs,
+  SiFirebase,
+  SiPandas,
+  SiTensorflow,
+  SiGooglecolab,
+  SiKeras
 } from "react-icons/si";
 
 const Projects = () => {
@@ -39,11 +44,11 @@ const Projects = () => {
           data-aos="zoom-out-down"
         >
           <Project_prop
-            title="Portfolio Website"
-            para="Personal portfolio website created with react and Tailwind CSS"
-            img={Portfolio}
+            title="Food Delivery Website"
+            para="Built a fully functional food delivery platform with user authentication, menu browsing, and dynamic cart functionality."
+            img={food}
             link=""
-            github_link=""
+            github_link="https://github.com/ArshiaTalwar/Food_Delivery"
             react={
               <Tooltip title="React" arrow>
                 <IconButton>
@@ -51,10 +56,59 @@ const Projects = () => {
                 </IconButton>
               </Tooltip>
             }
+            vite={
+              <Tooltip title="Vite" arrow>
+                <IconButton>
+                  <SiVite className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            mongodb={
+              <Tooltip title="MongoDB" arrow>
+                <IconButton>
+                  <SiMongodb className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            nodejs={
+              <Tooltip title="nodejs" arrow>
+                <IconButton>
+                  <SiNodedotjs className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            express={
+              <Tooltip title="express" arrow>
+                <IconButton>
+                  <SiExpress className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+          />
+          <Project_prop
+            title="YapNest"
+            para="A user-friendly blogging webiste multimedia support with secure authentication"
+            img={yapnest}
+            link=""
+            github_link="https://github.com/ArshiaTalwar/YapNest"
             tailwindcss={
               <Tooltip title="TailWind CSS" arrow>
                 <IconButton>
                   <SiTailwindcss className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            firebase={
+              <Tooltip title="Firebase" arrow>
+                <IconButton>
+                  <SiFirebase className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            react={
+              <Tooltip title="React" arrow>
+                <IconButton>
+                  <SiReact className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
@@ -67,117 +121,45 @@ const Projects = () => {
             }
           />
           <Project_prop
-            title="Stark Rockets"
-            para="Stark is a fantasy and futuristic website which offers the ride of space-ship to the space"
-            img={Rocket}
-            link="https://stark-rockets.onrender.com/"
-            github_link="https://github.com/DhairyaMajmudar/STARK"
-            html5={
-              <Tooltip title="HTML5" arrow>
-                <IconButton>
-                  <SiHtml5 className="dark:text-slate-200 text-black" />
-                </IconButton>
-              </Tooltip>
-            }
-            javascript={
-              <Tooltip title="JavaScript" arrow>
-                <IconButton>
-                  <SiJavascript className="dark:text-slate-200 text-black" />
-                </IconButton>
-              </Tooltip>
-            }
-            tailwindcss={
-              <Tooltip title="TailWind CSS" arrow>
-                <IconButton>
-                  <SiTailwindcss className="dark:text-slate-200 text-black" />
-                </IconButton>
-              </Tooltip>
-            }
-          />
-          <Project_prop
-            title="Thrive"
-            para="Thrive is a website which primarily focuses on improving life-style and well-being"
-            img={WellBeing}
-            link="https://dhairyamajmudar.github.io/Thrive/"
-            github_link="https://github.com/DhairyaMajmudar/Thrive"
-            html5={
-              <Tooltip title="HTML 5" arrow>
-                <IconButton>
-                  <SiHtml5 className="dark:text-slate-200 text-black" />
-                </IconButton>
-              </Tooltip>
-            }
-            javascript={
-              <Tooltip title="JavaScript" arrow>
-                <IconButton>
-                  <SiJavascript className="dark:text-slate-200 text-black" />
-                </IconButton>
-              </Tooltip>
-            }
-            css3={
-              <Tooltip title="CSS 3" arrow>
-                <IconButton>
-                  <SiCss3 className="dark:text-slate-200 text-black" />
-                </IconButton>
-              </Tooltip>
-            }
-          />
-          <Project_prop
-            title="GPT-4 Website"
-            para="GPT 4 is a website which focuses on introduction of AI to the world "
-            img={GPT4}
-            link="https://dhairya-majmudar-gpt-4.netlify.app/"
-            github_link="https://github.com/DhairyaMajmudar/GPT-4-Website"
-            react={
-              <Tooltip title="React" arrow>
-                <IconButton>
-                  <SiReact className="dark:text-slate-200 text-black" />
-                </IconButton>
-              </Tooltip>
-            }
-            javascript={
-              <Tooltip title="JavaScript" arrow>
-                <IconButton>
-                  <SiJavascript className="dark:text-slate-200 text-black" />
-                </IconButton>
-              </Tooltip>
-            }
-            css3={
-              <Tooltip title="CSS 3" arrow>
-                <IconButton>
-                  <SiCss3 className="dark:text-slate-200 text-black" />
-                </IconButton>
-              </Tooltip>
-            }
-          />
-          <Project_prop
-            title="Stone-Paper-Scissors Game"
-            para="A Stone Paper Scissors game created  to remember childhood memories"
-            img={Game}
+            title="SheDetects"
+            para="Developed a deep learning model using transfer learning with ResNet50 to classify breast cancer from histopathology images."
+            img={shedetects}
             link=""
-            github_link="https://github.com/DhairyaMajmudar/Stone-Paper-Scissors"
-            html5={
-              <Tooltip title="HTML 5" arrow>
+            github_link="https://github.com/ArshiaTalwar/SheDetects/tree/main"
+            pandas={
+              <Tooltip title="Pandas" arrow>
                 <IconButton>
-                  <SiHtml5 className="dark:text-slate-200 text-black" />
+                  <SiPandas className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
-            javascript={
-              <Tooltip title="JavaScript" arrow>
+            tensor={
+              <Tooltip title="tensorflow" arrow>
                 <IconButton>
-                  <SiJavascript className="dark:text-slate-200 text-black" />
+                  <SiTensorflow className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
-            css3={
-              <Tooltip title="CSS 3" arrow>
+            googlecolab={
+              <Tooltip title="Google Colab" arrow>
                 <IconButton>
-                  <SiCss3 className="dark:text-slate-200 text-black" />
+                  <SiGooglecolab className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
+            keras={
+              <Tooltip title="keras" arrow>
+                <IconButton>
+                  <SiKeras className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            
           />
+          
+           
+         
+           
         </div>
       </div>
     </section>

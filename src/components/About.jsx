@@ -6,10 +6,10 @@ const About = () => {
     <>
       <section
         id="about"
-        className="p-5 mx-20 mb-10 font-medium font-['Poppins']  max-sm:p-2 max-sm:mx-5"
+        className="p-5 mx-40 mb-10 font-medium font-['Poppins']  max-sm:p-2 max-sm:mx-5"
       >
         <div className="WRAPPER mt-12 flex max-sm:flex-col gap-5">
-          <div className="INTRO text-[70px] leading-[80px] font-semibold max-sm:text-[50px] max-sm:leading-[70px] max-sm:font-semibold">
+          <div className="INTRO text-[70px]  leading-[80px] font-semibold max-sm:text-[50px] max-sm:leading-[70px] max-sm:font-semibold">
             <h3 className="text-[#00040f] dark:text-white">
               Hi! <br />I am
             </h3>
@@ -27,7 +27,7 @@ const About = () => {
           <Lottie
             animationData={computer}
             loop={true}
-            className="max-w-[650px] shadow-xl rounded-xl border border-[#00040f]"
+            className="mx-10 max-w-[650px] shadow-xl rounded-xl border border-[#00040f]"
           />
         </div>
       </section>
