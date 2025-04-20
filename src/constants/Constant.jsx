@@ -9,7 +9,7 @@ import Vite from "../assets/Vite.png";
 import TailwindCSS from "../assets/TailwindCSS.png";
 import react from "../assets/React.png";
 import sql from "../assets/sql.png";
-import mongoDB from "../assets/mongoDB.png";
+import mongoDB from "../assets/mongodB.png";
 import food from "../assets/food.png";
 import java from "../assets/java.png";
 import Sports from "../assets/Sports_Club.png";
@@ -18,7 +18,7 @@ import GDSC from "../assets/GDSC.png";
 import KDE from "../assets/kde.png";
 import Oppia from "../assets/oppia.png";
 import firebase from "../assets/firebase.png";
-import shedetects from "../assets/SheDetects.png";
+import shedetects from "../assets/shedetects.png";
 import yapnest from "../assets/yapnest.png";
 import  typescript from "../assets/typescript.png";
 
