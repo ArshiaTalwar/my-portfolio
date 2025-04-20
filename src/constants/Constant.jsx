@@ -7,7 +7,7 @@ import Javascript from "../assets/Javascript.png";
 import Git from "../assets/Git.png";
 import Vite from "../assets/Vite.png";
 import TailwindCSS from "../assets/TailwindCSS.png";
-import react from "../assets/react.png";
+import react from "../assets/React.png";
 import sql from "../assets/sql.png";
 import mongoDB from "../assets/mongoDB.png";
 import food from "../assets/food.png";
