@@ -32,7 +32,7 @@ const Contact = () => {
                 <SiGithub />
               </a>
               <a
-                href="https://www.linkedin.com/in//"
+                href="https://www.linkedin.com/in/arshia-talwar-151a9a258/8"
                 className=" hover:text-slate-500  dark:hover:text-sky-300"
               >
                 <SiLinkedin />
@@ -46,11 +46,11 @@ const Contact = () => {
             </div>
             <div className="flex gap-5 max-sm:justify-center">
               <button className="py-3 px-4 bg-gradient-to-t dark:from-cyan-500 dark:to-slate-300  from-blue-600 to-cyan-600 font-medium text-[12px] text-[#e1e1e1] dark:text-black outline-none mt-10 mr-3 rounded ">
-                <a href="https://drive.google.com/file/d/1mxOhRDlXK_hT2f7ndu_R2q7bZmQltpAB/view?usp=drive_link">Resume</a>
+                <a href="https://drive.google.com/file/d/10DGghLqiJqQt3055ux4L4GeOKDtoQq0B/view?usp=sharing">Resume</a>
               </button>
               <button className="py-3 px-4 bg-gradient-to-t dark:from-cyan-500 dark:to-slate-300 from-blue-600 to-cyan-600  font-medium text-[12px] text-[#e1e1e1] dark:text-black outline-none mt-10 mr-3 rounded ">
                 <a
-                  href="https://github.com/ArshiaTalwar/Personal-Portfolio"
+                  href="https://github.com/ArshiaTalwar/my-portfolio"
                   className="flex gap-2 items-center justify-center"
                 >
                   <SiGithub />
